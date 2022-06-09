@@ -41,8 +41,8 @@ import java.sql.Timestamp;
 <span class="pc bpc" id="L41" title="1 of 2 branches missed.">            ps.setTimestamp(5, (ticket.getOutTime() == null)?null: (new Timestamp(ticket.getOutTime().getTime())) );</span>
             
 <span class="fc" id="L43">            return ps.execute();</span>
-<span class="nc" id="L44">        }catch (Exception ex){</span>
-<span class="nc" id="L45">            logger.error(&quot;Error fetching next available slot&quot;,ex);</span>
+<span class="fc" id="L44">        }catch (Exception ex){</span>
+<span class="fc" id="L45">            logger.error(&quot;Error fetching next available slot&quot;,ex);</span>
 <span class="nc" id="L46">        }finally {</span>
         	
 <span class="fc" id="L48">        	dataBaseConfig.closePreparedStatement(ps);</span>
@@ -91,9 +91,9 @@ import java.sql.Timestamp;
             }
             
             
-<span class="pc" id="L94">        }catch (Exception ex){</span>
+<span class="fc" id="L94">        }catch (Exception ex){</span>
         	
-<span class="nc" id="L96">            logger.error(&quot;Error fetching the ticket&quot;,ex);</span>
+<span class="fc" id="L96">            logger.error(&quot;Error fetching the ticket&quot;,ex);</span>
             
 <span class="nc" id="L98">        }finally {</span>
         	

@@ -12,7 +12,9 @@ public class Ticket {
     private Date outTime;
 
     
-    
+   
+	
+	
     public int getId() {
         return id;
     }
@@ -44,34 +46,37 @@ public class Ticket {
     public void setPrice(double price) {
         this.price = price;
     }
+    
+    
 
     public Date getInTime() {
-        return inTime;
+        return this.inTime;
     }
 
     public void setInTime(Date inTime) {
         this.inTime = inTime;
     }
+    
+    
 
     public Date getOutTime() {
-        return outTime;
+        return this.outTime;
     }
 
     public void setOutTime(Date outTime) {
         this.outTime = outTime;
     }
     
+	/*
+	 * public void setOutTime(Date outTime) { 
+	 * this.outTime = new
+	 * Date(outTime.getTime()); 
+	 * }
+	 */
     
-    //@Override
-    //public boolean equals(Object object) {
-        //if (this == object) return true;
-       // if (object == null || getClass() != object.getClass()) return false;
-       // Ticket that = (Ticket) object;
-        //return id == that.id;
-   // }
     
-    //@Override
-    //public int hashCode() {
-       // return id;
-    //}
+    
+ 
+    
+   
 }

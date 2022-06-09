@@ -90,7 +90,7 @@ public class ParkingDataBaseIT {
 
     
     @Test
-    public void testParkingLotExit() throws Exception{
+    public void testParkingLotExit() {
     	testParkingACar();
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
        
@@ -109,9 +109,10 @@ public class ParkingDataBaseIT {
         
         //check that the fare generated and out time are populated correctly in the database
         
+        
         assertNotNull(ticketDAO.getTicket("ABCDEF").getOutTime());
         
-        assertNotEquals(0, ticketDAO.getTicket("ABCDEF").getPrice());
+        assertNotEquals(1, ticketDAO.getTicket("ABCDEF").getPrice());
        
     }
 

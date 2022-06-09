@@ -68,7 +68,9 @@ class ParkingSpotDAOTest {
 		
 		int actual = parkingSpotDAO.getNextAvailableSlot(parkingSpot.getParkingType());
 		
-		assertEquals(1, actual);
+		int expected = 1;
+		
+		assertEquals(expected, actual);
 		
 	}
 	

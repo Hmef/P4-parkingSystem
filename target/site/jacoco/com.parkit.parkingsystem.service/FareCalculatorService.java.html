@@ -37,32 +37,30 @@ import com.parkit.parkingsystem.model.Ticket;
         
 <span class="fc bfc" id="L38" title="All 2 branches covered.">        if( isRecuringCustomer&gt;1 ) {</span>
         	
-<span class="fc" id="L40">        	System.out.println(&quot;Welcome We have the pleasaure to see you again  ... &quot;);</span>
-        	
-<span class="fc" id="L42">        	ratio = 0.95F;</span>
+<span class="fc" id="L40">        	ratio = 0.95F;</span>
         }
         
-<span class="fc bfc" id="L45" title="All 2 branches covered.">        if(duration &lt;= 0.5) {</span>
-<span class="fc" id="L46">        	ticket.setPrice(duration * 0);</span>
-<span class="fc" id="L47">        }</span>
+<span class="fc bfc" id="L43" title="All 2 branches covered.">        if(duration &lt;= 0.5) {</span>
+<span class="fc" id="L44">        	ticket.setPrice(duration * 0);</span>
+<span class="fc" id="L45">        }</span>
        
         else {
         	
-<span class="pc bpc" id="L51" title="1 of 3 branches missed.">        switch (ticket.getParkingSpot().getParkingType()){</span>
+<span class="pc bpc" id="L49" title="1 of 3 branches missed.">        switch (ticket.getParkingSpot().getParkingType()){</span>
             case CAR: {
-<span class="fc" id="L53">                ticket.setPrice(duration * Fare.CAR_RATE_PER_HOUR * ratio);  </span>
+<span class="fc" id="L51">                ticket.setPrice(duration * Fare.CAR_RATE_PER_HOUR * ratio);  </span>
                 
-<span class="fc" id="L55">                break;</span>
+<span class="fc" id="L53">                break;</span>
             }
             
             case BIKE: {
-<span class="fc" id="L59">                ticket.setPrice(duration * Fare.BIKE_RATE_PER_HOUR * ratio);</span>
-<span class="fc" id="L60">                break;</span>
+<span class="fc" id="L57">                ticket.setPrice(duration * Fare.BIKE_RATE_PER_HOUR * ratio);</span>
+<span class="fc" id="L58">                break;</span>
             }
-<span class="nc" id="L62">            default: throw new NullPointerException(&quot;Unkown Parking Type&quot;);</span>
+<span class="nc" id="L60">            default: throw new NullPointerException(&quot;Unkown Parking Type&quot;);</span>
         }
         }
-<span class="fc" id="L65">    }</span>
+<span class="fc" id="L63">    }</span>
 	
 	
 	
