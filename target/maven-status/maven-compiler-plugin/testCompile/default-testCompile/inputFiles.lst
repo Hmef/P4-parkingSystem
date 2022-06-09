@@ -1,0 +1,10 @@
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/dao/TicketDAOTest.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/integration/ParkingDataBaseIT.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/dao/ParkingSpotDAOTest.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/integration/config/DataBaseTestConfig.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/util/InputReaderUtilTest.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/ParkingServiceTest.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/model/ParkingSpotTest.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/model/TicketTest.java
+/Users/new/Downloads/parkingsystem-master/src/test/java/com/parkit/parkingsystem/integration/service/DataBasePrepareService.java

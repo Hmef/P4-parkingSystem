@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.3.0" sequence="0" timestamp="1654779603473" analysisTimestamp="1654782012852" release="">
+  <Project projectName="parking-system">
+    <Jar>/Users/new/Downloads/parkingsystem-master/target/classes</Jar>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/jacoco/jacoco-maven-plugin/0.8.5/jacoco-maven-plugin-0.8.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-project/2.0.10/maven-project-2.0.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-profile/2.0.10/maven-profile-2.0.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.10/maven-plugin-registry-2.0.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/jacoco/org.jacoco.core/0.8.5/org.jacoco.core-0.8.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/ow2/asm/asm/7.2/asm-7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/new/.m2/repository/org/jacoco/org.jacoco.report/0.8.5/org.jacoco.report-0.8.5.jar</AuxClasspathEntry>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="5ff54b68f4b8003ddecbd7d44bdc241d" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>Une méthode peut exposer sa représentation interne en renvoyant une référence à un objet modifiable</ShortMessage>
+    <LongMessage>La méthode com.parkit.parkingsystem.model.Ticket.getInTime() risque d&apos;exposer sa représentation interne en renvoyant com.parkit.parkingsystem.model.Ticket.inTime</LongMessage>
+    <Class classname="com.parkit.parkingsystem.model.Ticket" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="6" end="62" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>At Ticket.java:[lines 6-62]</Message>
+      </SourceLine>
+      <Message>In class com.parkit.parkingsystem.model.Ticket</Message>
+    </Class>
+    <Method classname="com.parkit.parkingsystem.model.Ticket" name="getInTime" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="49" end="49" startBytecode="0" endBytecode="46" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java"/>
+      <Message>In method com.parkit.parkingsystem.model.Ticket.getInTime()</Message>
+    </Method>
+    <Field classname="com.parkit.parkingsystem.model.Ticket" name="inTime" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>In Ticket.java</Message>
+      </SourceLine>
+      <Message>Field com.parkit.parkingsystem.model.Ticket.inTime</Message>
+    </Field>
+    <SourceLine classname="com.parkit.parkingsystem.model.Ticket" primary="true" start="49" end="49" startBytecode="4" endBytecode="4" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+      <Message>At Ticket.java:[line 49]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="f2fc408ffb417b215f42fd76bc6bff20" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>Une méthode peut exposer sa représentation interne en renvoyant une référence à un objet modifiable</ShortMessage>
+    <LongMessage>La méthode com.parkit.parkingsystem.model.Ticket.getOutTime() risque d&apos;exposer sa représentation interne en renvoyant com.parkit.parkingsystem.model.Ticket.outTime</LongMessage>
+    <Class classname="com.parkit.parkingsystem.model.Ticket" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="6" end="62" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>At Ticket.java:[lines 6-62]</Message>
+      </SourceLine>
+      <Message>In class com.parkit.parkingsystem.model.Ticket</Message>
+    </Class>
+    <Method classname="com.parkit.parkingsystem.model.Ticket" name="getOutTime" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="57" end="57" startBytecode="0" endBytecode="46" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java"/>
+      <Message>In method com.parkit.parkingsystem.model.Ticket.getOutTime()</Message>
+    </Method>
+    <Field classname="com.parkit.parkingsystem.model.Ticket" name="outTime" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>In Ticket.java</Message>
+      </SourceLine>
+      <Message>Field com.parkit.parkingsystem.model.Ticket.outTime</Message>
+    </Field>
+    <SourceLine classname="com.parkit.parkingsystem.model.Ticket" primary="true" start="57" end="57" startBytecode="4" endBytecode="4" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+      <Message>At Ticket.java:[line 57]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="8b638e869de2a132a4b4821f23613913" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>Une méthode peut exposer sa représentation interne en renvoyant une référence à un objet modifiable</ShortMessage>
+    <LongMessage>La méthode com.parkit.parkingsystem.model.Ticket.getParkingSpot() risque d&apos;exposer sa représentation interne en renvoyant com.parkit.parkingsystem.model.Ticket.parkingSpot</LongMessage>
+    <Class classname="com.parkit.parkingsystem.model.Ticket" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="6" end="62" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>At Ticket.java:[lines 6-62]</Message>
+      </SourceLine>
+      <Message>In class com.parkit.parkingsystem.model.Ticket</Message>
+    </Class>
+    <Method classname="com.parkit.parkingsystem.model.Ticket" name="getParkingSpot" signature="()Lcom/parkit/parkingsystem/model/ParkingSpot;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="25" end="25" startBytecode="0" endBytecode="46" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java"/>
+      <Message>In method com.parkit.parkingsystem.model.Ticket.getParkingSpot()</Message>
+    </Method>
+    <Field classname="com.parkit.parkingsystem.model.Ticket" name="parkingSpot" signature="Lcom/parkit/parkingsystem/model/ParkingSpot;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>In Ticket.java</Message>
+      </SourceLine>
+      <Message>Field com.parkit.parkingsystem.model.Ticket.parkingSpot</Message>
+    </Field>
+    <SourceLine classname="com.parkit.parkingsystem.model.Ticket" primary="true" start="25" end="25" startBytecode="4" endBytecode="4" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+      <Message>At Ticket.java:[line 25]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="4aa649554044801fc226c4af21586e57" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>Une méthode expose sa représentation interne en incorporant une référence à un objet modifiable</ShortMessage>
+    <LongMessage>La méthode com.parkit.parkingsystem.model.Ticket.setInTime(Date) risque d&apos;exposer sa représentation interne en stockant un objet externe modifiable dans com.parkit.parkingsystem.model.Ticket.inTime</LongMessage>
+    <Class classname="com.parkit.parkingsystem.model.Ticket" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="6" end="62" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>At Ticket.java:[lines 6-62]</Message>
+      </SourceLine>
+      <Message>In class com.parkit.parkingsystem.model.Ticket</Message>
+    </Class>
+    <Method classname="com.parkit.parkingsystem.model.Ticket" name="setInTime" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="53" end="54" startBytecode="0" endBytecode="61" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java"/>
+      <Message>In method com.parkit.parkingsystem.model.Ticket.setInTime(Date)</Message>
+    </Method>
+    <Field classname="com.parkit.parkingsystem.model.Ticket" name="inTime" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>In Ticket.java</Message>
+      </SourceLine>
+      <Message>Field com.parkit.parkingsystem.model.Ticket.inTime</Message>
+    </Field>
+    <LocalVariable name="inTime" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named inTime</Message>
+    </LocalVariable>
+    <SourceLine classname="com.parkit.parkingsystem.model.Ticket" primary="true" start="53" end="53" startBytecode="2" endBytecode="2" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+      <Message>At Ticket.java:[line 53]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="840007377b234825c3b504443582274a" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>Une méthode expose sa représentation interne en incorporant une référence à un objet modifiable</ShortMessage>
+    <LongMessage>La méthode com.parkit.parkingsystem.model.Ticket.setOutTime(Date) risque d&apos;exposer sa représentation interne en stockant un objet externe modifiable dans com.parkit.parkingsystem.model.Ticket.outTime</LongMessage>
+    <Class classname="com.parkit.parkingsystem.model.Ticket" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="6" end="62" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>At Ticket.java:[lines 6-62]</Message>
+      </SourceLine>
+      <Message>In class com.parkit.parkingsystem.model.Ticket</Message>
+    </Class>
+    <Method classname="com.parkit.parkingsystem.model.Ticket" name="setOutTime" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="61" end="62" startBytecode="0" endBytecode="61" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java"/>
+      <Message>In method com.parkit.parkingsystem.model.Ticket.setOutTime(Date)</Message>
+    </Method>
+    <Field classname="com.parkit.parkingsystem.model.Ticket" name="outTime" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>In Ticket.java</Message>
+      </SourceLine>
+      <Message>Field com.parkit.parkingsystem.model.Ticket.outTime</Message>
+    </Field>
+    <LocalVariable name="outTime" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named outTime</Message>
+    </LocalVariable>
+    <SourceLine classname="com.parkit.parkingsystem.model.Ticket" primary="true" start="61" end="61" startBytecode="2" endBytecode="2" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+      <Message>At Ticket.java:[line 61]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="40e5ec44daab369397df787a869433bd" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>Une méthode expose sa représentation interne en incorporant une référence à un objet modifiable</ShortMessage>
+    <LongMessage>La méthode com.parkit.parkingsystem.model.Ticket.setParkingSpot(ParkingSpot) risque d&apos;exposer sa représentation interne en stockant un objet externe modifiable dans com.parkit.parkingsystem.model.Ticket.parkingSpot</LongMessage>
+    <Class classname="com.parkit.parkingsystem.model.Ticket" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="6" end="62" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>At Ticket.java:[lines 6-62]</Message>
+      </SourceLine>
+      <Message>In class com.parkit.parkingsystem.model.Ticket</Message>
+    </Class>
+    <Method classname="com.parkit.parkingsystem.model.Ticket" name="setParkingSpot" signature="(Lcom/parkit/parkingsystem/model/ParkingSpot;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" start="29" end="30" startBytecode="0" endBytecode="61" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java"/>
+      <Message>In method com.parkit.parkingsystem.model.Ticket.setParkingSpot(ParkingSpot)</Message>
+    </Method>
+    <Field classname="com.parkit.parkingsystem.model.Ticket" name="parkingSpot" signature="Lcom/parkit/parkingsystem/model/ParkingSpot;" isStatic="false" primary="true">
+      <SourceLine classname="com.parkit.parkingsystem.model.Ticket" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+        <Message>In Ticket.java</Message>
+      </SourceLine>
+      <Message>Field com.parkit.parkingsystem.model.Ticket.parkingSpot</Message>
+    </Field>
+    <LocalVariable name="parkingSpot" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named parkingSpot</Message>
+    </LocalVariable>
+    <SourceLine classname="com.parkit.parkingsystem.model.Ticket" primary="true" start="29" end="29" startBytecode="2" endBytecode="2" sourcefile="Ticket.java" sourcepath="com/parkit/parkingsystem/model/Ticket.java">
+      <Message>At Ticket.java:[line 29]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugPattern type="EI_EXPOSE_REP2" abbrev="EI2" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>Une méthode expose sa représentation interne en incorporant une référence à un objet modifiable</ShortDescription>
+    <Details><![CDATA[
+
+<p>Ce code stocke une référence à un objet externe modifiable dans la représentation interne de l'objet. Si des instances sont accédées par du code non fiable, et que des modifications non vérifiées peuvent compromettre la sécurité ou d'autres propriétés importantes, vous devez faire autre chose. Stocker une copie de l'objet est une meilleur approche dans de nombreuses situations.</p>
+
+  ]]></Details>
+  </BugPattern>
+  <BugPattern type="EI_EXPOSE_REP" abbrev="EI" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>Une méthode peut exposer sa représentation interne en renvoyant une référence à un objet modifiable</ShortDescription>
+    <Details><![CDATA[
+
+<p>Renvoyer une référence à un objet modifiable stocké dans les champs d'un objet expose la représentation interne de l'objet. Si des instances sont accédées par du code non fiable, et que des modifications non vérifiées peuvent compromettre la sécurité ou d'autres propriétés importantes, vous devez faire autre chose. Renvoyer une nouvelle copie de l'objet est une meilleur approche dans de nombreuses situations.</p>
+
+  ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="EI">
+    <Description>Méthode renvoyant un tableau, ce qui peut exposer sa représentation interne</Description>
+  </BugCode>
+  <BugCode abbrev="EI2">
+    <Description>Stockage d&apos;une référence vers un objet modifiable</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 9 Jun 2022 15:00:03 +0200" total_classes="13" referenced_classes="56" total_bugs="6" total_size="437" num_packages="7" java_version="13.0.1" vm_version="13.0.1+9" cpu_seconds="16.68" clock_seconds="4.83" peak_mbytes="203.69" alloc_mbytes="512.00" gc_seconds="0.04" priority_2="6">
+    <FileStats path="com/parkit/parkingsystem/App.java" bugCount="0" size="10"/>
+    <FileStats path="com/parkit/parkingsystem/config/DataBaseConfig.java" bugCount="0" size="37"/>
+    <FileStats path="com/parkit/parkingsystem/constants/DBConstants.java" bugCount="0" size="9"/>
+    <FileStats path="com/parkit/parkingsystem/constants/Fare.java" bugCount="0" size="5"/>
+    <FileStats path="com/parkit/parkingsystem/constants/ParkingType.java" bugCount="0" size="12"/>
+    <FileStats path="com/parkit/parkingsystem/dao/ParkingSpotDAO.java" bugCount="0" size="44"/>
+    <FileStats path="com/parkit/parkingsystem/dao/TicketDAO.java" bugCount="0" size="85"/>
+    <FileStats path="com/parkit/parkingsystem/model/ParkingSpot.java" bugCount="0" size="32"/>
+    <FileStats path="com/parkit/parkingsystem/model/Ticket.java" bugCount="6" size="39" bugHash="2903ff0a62a85e073bd95675d3fc1c90"/>
+    <FileStats path="com/parkit/parkingsystem/service/FareCalculatorService.java" bugCount="0" size="28"/>
+    <FileStats path="com/parkit/parkingsystem/service/InteractiveShell.java" bugCount="0" size="33"/>
+    <FileStats path="com/parkit/parkingsystem/service/ParkingService.java" bugCount="0" size="79"/>
+    <FileStats path="com/parkit/parkingsystem/util/InputReaderUtil.java" bugCount="0" size="24"/>
+    <PackageStats package="com.parkit.parkingsystem" total_bugs="0" total_types="1" total_size="10">
+      <ClassStats class="com.parkit.parkingsystem.App" sourceFile="App.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.parkit.parkingsystem.config" total_bugs="0" total_types="1" total_size="37">
+      <ClassStats class="com.parkit.parkingsystem.config.DataBaseConfig" sourceFile="DataBaseConfig.java" interface="false" size="37" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.parkit.parkingsystem.constants" total_bugs="0" total_types="3" total_size="26">
+      <ClassStats class="com.parkit.parkingsystem.constants.DBConstants" sourceFile="DBConstants.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.parkit.parkingsystem.constants.Fare" sourceFile="Fare.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.parkit.parkingsystem.constants.ParkingType" sourceFile="ParkingType.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.parkit.parkingsystem.dao" total_bugs="0" total_types="2" total_size="129">
+      <ClassStats class="com.parkit.parkingsystem.dao.ParkingSpotDAO" sourceFile="ParkingSpotDAO.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="com.parkit.parkingsystem.dao.TicketDAO" sourceFile="TicketDAO.java" interface="false" size="85" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.parkit.parkingsystem.model" total_bugs="6" total_types="2" total_size="71" priority_2="6">
+      <ClassStats class="com.parkit.parkingsystem.model.ParkingSpot" sourceFile="ParkingSpot.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="com.parkit.parkingsystem.model.Ticket" sourceFile="Ticket.java" interface="false" size="39" bugs="6" priority_2="6"/>
+    </PackageStats>
+    <PackageStats package="com.parkit.parkingsystem.service" total_bugs="0" total_types="3" total_size="140">
+      <ClassStats class="com.parkit.parkingsystem.service.FareCalculatorService" sourceFile="FareCalculatorService.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="com.parkit.parkingsystem.service.InteractiveShell" sourceFile="InteractiveShell.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="com.parkit.parkingsystem.service.ParkingService" sourceFile="ParkingService.java" interface="false" size="79" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.parkit.parkingsystem.util" total_bugs="0" total_types="1" total_size="24">
+      <ClassStats class="com.parkit.parkingsystem.util.InputReaderUtil" sourceFile="InputReaderUtil.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="938" invocations="566" avgMicrosecondsPerInvocation="1658" maxMicrosecondsPerInvocation="23390" standardDeviationMicrosecondsPerInvocation="3322"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="250" invocations="56" avgMicrosecondsPerInvocation="4476" maxMicrosecondsPerInvocation="69916" standardDeviationMicrosecondsPerInvocation="10742"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="239" invocations="56" avgMicrosecondsPerInvocation="4278" maxMicrosecondsPerInvocation="38199" standardDeviationMicrosecondsPerInvocation="8088"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="231" invocations="571" avgMicrosecondsPerInvocation="404" maxMicrosecondsPerInvocation="8192" standardDeviationMicrosecondsPerInvocation="713"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="133" invocations="165" avgMicrosecondsPerInvocation="808" maxMicrosecondsPerInvocation="12065" standardDeviationMicrosecondsPerInvocation="1418"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="114" invocations="65" avgMicrosecondsPerInvocation="1759" maxMicrosecondsPerInvocation="95765" standardDeviationMicrosecondsPerInvocation="11757"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="97" invocations="70" avgMicrosecondsPerInvocation="1399" maxMicrosecondsPerInvocation="23762" standardDeviationMicrosecondsPerInvocation="3222"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="85" invocations="65" avgMicrosecondsPerInvocation="1309" maxMicrosecondsPerInvocation="20792" standardDeviationMicrosecondsPerInvocation="2723"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="85" invocations="65" avgMicrosecondsPerInvocation="1309" maxMicrosecondsPerInvocation="14947" standardDeviationMicrosecondsPerInvocation="2547"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="82" invocations="56" avgMicrosecondsPerInvocation="1472" maxMicrosecondsPerInvocation="21272" standardDeviationMicrosecondsPerInvocation="3289"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="80" invocations="92" avgMicrosecondsPerInvocation="870" maxMicrosecondsPerInvocation="31419" standardDeviationMicrosecondsPerInvocation="3595"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="77" invocations="56" avgMicrosecondsPerInvocation="1380" maxMicrosecondsPerInvocation="13716" standardDeviationMicrosecondsPerInvocation="2685"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="77" invocations="65" avgMicrosecondsPerInvocation="1185" maxMicrosecondsPerInvocation="16843" standardDeviationMicrosecondsPerInvocation="2354"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="71" invocations="529" avgMicrosecondsPerInvocation="135" maxMicrosecondsPerInvocation="2663" standardDeviationMicrosecondsPerInvocation="269"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="64" invocations="70" avgMicrosecondsPerInvocation="921" maxMicrosecondsPerInvocation="17520" standardDeviationMicrosecondsPerInvocation="2183"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="60" invocations="56" avgMicrosecondsPerInvocation="1076" maxMicrosecondsPerInvocation="10155" standardDeviationMicrosecondsPerInvocation="2097"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="56" invocations="13" avgMicrosecondsPerInvocation="4356" maxMicrosecondsPerInvocation="24170" standardDeviationMicrosecondsPerInvocation="7826"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="53" invocations="56" avgMicrosecondsPerInvocation="963" maxMicrosecondsPerInvocation="13413" standardDeviationMicrosecondsPerInvocation="2414"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="49" invocations="46" avgMicrosecondsPerInvocation="1067" maxMicrosecondsPerInvocation="9831" standardDeviationMicrosecondsPerInvocation="1750"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="47" invocations="56" avgMicrosecondsPerInvocation="851" maxMicrosecondsPerInvocation="6728" standardDeviationMicrosecondsPerInvocation="1480"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="46" invocations="65" avgMicrosecondsPerInvocation="721" maxMicrosecondsPerInvocation="4073" standardDeviationMicrosecondsPerInvocation="926"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
