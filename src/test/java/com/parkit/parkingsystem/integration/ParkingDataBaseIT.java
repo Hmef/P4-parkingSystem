@@ -29,7 +29,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 
-
 @ExtendWith(MockitoExtension.class)
 public class ParkingDataBaseIT {
 
@@ -52,8 +51,7 @@ public class ParkingDataBaseIT {
 
     @BeforeEach
     private void setUpPerTest() {
-    	
-        
+    	       
         dataBasePrepareService.clearDataBaseEntries();
     }
 
@@ -64,27 +62,20 @@ public class ParkingDataBaseIT {
 
         when(inputReaderUtil.readSelection()).thenReturn(1);
         
-		
 		when(inputReaderUtil.readVehicleRegistrationNumber()).thenReturn("ABCDEF");
 		
-		
 		ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR, false);
-        
-        
+         
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
         
         parkingService.processIncomingVehicle();
         
         //check that a ticket is actualy saved in DB and Parking table is updated with availability
-      
-        
+
         assertNotNull(ticketDAO.getTicket("ABCDEF"));
         
         assertNotNull(parkingSpotDAO.updateParking(parkingSpot));
-        
-        
-
-        
+   
     }
     
 

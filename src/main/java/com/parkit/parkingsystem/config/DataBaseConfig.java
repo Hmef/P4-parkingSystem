@@ -45,6 +45,7 @@ public class DataBaseConfig {
         }
     }
 
+    
     public void closeResultSet(ResultSet rs) {
         if(rs!=null){
             try {

@@ -10,23 +10,18 @@ import com.parkit.parkingsystem.model.Ticket;
 
 public class FareCalculatorService {
 
-
 	TicketDAO ticketDAO = new TicketDAO();
-	
-
 	
 	public void calculateFare(Ticket ticket){
         
 		if( (ticket.getOutTime() == null) || (ticket.getOutTime().before(ticket.getInTime())) ){
             throw new IllegalArgumentException("Out time provided is incorrect:"+ticket.getOutTime().toString());
         }
-
         
 		double inHour = ticket.getInTime().getTime();
 		
 		double outHour = ticket.getOutTime().getTime();
 		
-
         //TODO: Some tests are failing here. Need to check if this logic is correct
        
         double duration = ((outHour - inHour) / (60 * 60 * 1000));
